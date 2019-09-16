@@ -1,7 +1,14 @@
 
-Energy Conversation In RAID Disks using Reinforcement Learning
+# Energy Conservation in Disks Utilizing Related Data Concentration
 
-The project aims at conserving the energy in the RAID disks by spinning down the disks not in use.
+The project aims at conserving the energy in the RAID disks by using the related data concentration.
+
+The RAID disks were emulated using the DiskSim Simulation Environment by making small modifications.
+
+The web server disk usage traces was collected from the FIU's Computer Science web, email and dev servers.
+
+These web traces were used to simulate the
+
 
 This is achieved by controlling which disk the files are saved using Reinforcement learning.
 
